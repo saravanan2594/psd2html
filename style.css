@@ -1,0 +1,164 @@
+* {
+	margin: 0px;
+	letter-spacing: 1.3px;
+	font-family: Helvetica, Georgia, Serif;
+	font-size: 16px;
+}
+.intro {
+	color: #fff;
+}
+.boxmodel {
+	padding: 10px;
+	background-color: #52AB92;
+}
+.header {
+	position: absolute;
+	right: 52px;
+	font-size: 14px;
+    letter-spacing:1px;
+    color: #ffffff;
+}
+.avatar {
+	position: relative;
+	top: 0;
+}
+.client-review {
+	max-width: 500px;
+	font-style: italic;
+	font-size: 16px;
+	color: #808080;
+}
+.client-intro {
+	margin-top: 20px;
+	letter-spacing: 1px;
+	font-size: 12px;
+	font-weight: 250;
+}
+.form-info {
+	letter-spacing: 1px;
+	font-size: 1.2rem;
+	color: #808080;
+	position: relative;
+	bottom: 7px;
+}
+.headernew {
+	padding: 60px;
+	background-color: #f6f6f6;
+}
+.work-process {
+	position: relative;
+	left: 100px;
+}
+.title {
+	white-space: nowrap;
+	font-weight: 300;
+	text-align: center;
+	font-size: 16px;
+	font-family: font-family: 'Roboto', sans-serif;
+	color: #808080;
+}
+.main {
+	position: absolute;
+	top:70px;
+	left: 364px;
+	margin: 0px 550px 0px 550px;
+	padding: 20px 20px 10px 20px;
+	background-color: #fff;
+	border-radius: 8px;
+    color: #787878;
+}
+.btn {
+	background-color:#e87325;
+	color: #fff;
+}
+.create {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.FontStyle {
+	padding: 10px;
+	background-color: #f6f6f6;
+}
+.footer {
+	padding: 5px;
+	margin: 10px 10px 10px 10px;
+}
+.foot-content {
+	font-size: 12px;
+	color: #787878;
+	position: relative;
+	top: 10px;
+}
+.add-bar:after {
+	content: '|';
+}
+.add-bar:last-child::after {
+	content: '';
+}
+.short-description {
+	white-space: nowrap;
+	padding-top: 5px;
+}
+.terms-conditions {
+	position: absolute;
+	top: 310px;
+	right: 112px;
+}
+.terms-conditions-content {
+	white-space: nowrap;
+	font-size: 12px;
+	letter-spacing: 0.1px;
+	font-weight: 300;
+	color: #808080;
+}
+.fa {
+	font-size: small;
+}
+.right-quotation {
+	float: right;
+}
+.text-center{
+	font-size: 12px;
+}
+.client-image{
+	border-radius: 5px;
+}
+
+/* Media query for mobile */
+@media only screen and (max-width: 500px) {
+	.header {
+		top: 50px;
+	}
+	.intro {
+		white-space: nowrap;
+	}
+	.sub-intro {
+		padding-top: 20px;
+	}
+	.signup {
+		display: none;
+	}
+	.work-process {
+		left: 100px;
+	}
+	.avatar {
+		position: relative;
+		left: 70px;
+	}
+	.client-review {
+		padding-top: 30px;
+	}
+	.process-intro {
+		margin-top: 30px;
+	}
+	.footer-logo {
+		position: relative;
+		left: 80px;
+	}
+	.short-description {
+		display: none;
+	}
+	.client {
+		padding: 0;
+	}
+}
